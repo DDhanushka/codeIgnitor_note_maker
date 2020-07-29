@@ -1,12 +1,10 @@
 <div class="alert alert-info" role="alert">
-   
-    Total number of notes :  <strong><?= $noteCount ?> </strong>
+  Total number of notes :  <strong><?= $noteCount ?> </strong>
 </div>
 <p>
-<button class="btn btn-primary" onclick="window.print()">Print this page</button>
+  <button class="btn btn-primary" onclick="window.print()">Print this page</button>
 </P>
-
-
+<!-- all notes table -->
 <table class="table table-sm">
   <thead>
     <tr>
@@ -18,7 +16,7 @@
   </thead>
   <tbody>
   <?php
-  $i = 1;
+  $i = 1;   // note counter
   foreach ($note as $note_item): ?>
     <tr>
       <th scope="row"><?= $i?></th>
