@@ -11,9 +11,6 @@ class Notes extends Controller {
             'note' => $model->getAllNotes(),
         ];
 
-        $n = count($data['note']);
-        $data['n'] = $n;
-
         echo view('header', $data);
         echo view('overview', $data);
         echo view('footer', $data);
