@@ -7,7 +7,7 @@ class Notes extends Controller {
         $model = new NoteModel();
         $data = [
             'title' => 'All notes',
-            'heading' => 'All notes',
+            'heading' => 'Manage all your notes',
             'note' => $model->getAllNotes(),
         ];
 
@@ -127,7 +127,7 @@ class Notes extends Controller {
         $model = new NoteModel();
         $data = [
             'title' => 'Report',
-            'heading' => 'Report',
+            'heading' => 'Get a report',
             'note' => $model->getAllNotes(),
         ];
 
