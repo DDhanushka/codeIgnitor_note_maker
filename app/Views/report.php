@@ -2,7 +2,9 @@
    
     Total number of notes :  <strong><?= $noteCount ?> </strong>
 </div>
-
+<p>
+<button class="btn btn-primary" onclick="window.print()">Print this page</button>
+</P>
 
 
 <table class="table table-sm">
