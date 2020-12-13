@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
 * {
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 .mynav {
@@ -34,6 +39,7 @@ footer {
 
 content {
     padding: 0 100px ;
+    color:#555;
 }
 
 .mycard {
@@ -43,6 +49,12 @@ content {
 
 .mycard:hover > div{
     background-color: rgb(250, 250, 250);
+}
+
+.card-text {
+font-family: 'Shadows Into Light', cursive;
+font-size:30px;	
+color:#666;
 }
 
 .myimage {
