@@ -1,4 +1,4 @@
-<h2>You can read, update or delete your notes anytime :-)</h2>
+<h2>You can read, update or delete your notes anytime <i class="far fa-smile-beam"></i></h2>
 
 <?php foreach ($note as $note_item): ?>
 <!-- Note cards -->
@@ -12,20 +12,20 @@
     </p>
     <!-- Last updated Date Time -->
     <div class="alert alert-secondary myalert" role="alert">
-      <strong>Last Updated : </strong> 
+      <strong><i class="far fa-calendar-alt"></i> Updated : </strong> 
       <?= $note_item['dateTime']?>
     </div>
 
     <hr>
     <!-- Action buttons -->
     <a class="btn btn-primary" href="<?php echo base_url('notes/viewNote').'/'.$note_item['slug']?>">
-      Read complete note
+    <i class="fas fa-angle-double-right"></i> Read Full
     </a>
     <a class="btn btn-info" href="<? echo base_url('notes/readyUpdate') . '/' . $note_item['slug'] ?>" onclick="return confirm('Are you sure you want to update this item?');">
-      Update
+    <i class="fas fa-pen"></i> Update
     </a>
     <a class="btn btn-danger" href="<? echo base_url('notes/remove') . '/' . $note_item['slug'] ?>" onclick="return confirm('Are you sure you want to delete this item?');">
-      Delete
+    <i class="fas fa-trash-alt"></i> Delete
     </a>
   </div>
 </div>

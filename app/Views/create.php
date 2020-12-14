@@ -14,7 +14,7 @@
     </div>
     <div class="form-group row">
         <div class="col-sm-10 offset-sm-2">
-            <button type="submit" class="btn btn-primary">Create</button>
+            <button type="submit" class="btn btn-primary"><i class="fas fa-plus-circle"></i>  Create</button>
         </div>
     </div>
 </form>

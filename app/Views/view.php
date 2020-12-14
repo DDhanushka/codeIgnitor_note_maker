@@ -1,5 +1,5 @@
 <!-- View single note -->
-<p>
+<p class="card-text">
     <?= $note['body'] ?>
 </p>
 <!-- last update Date Time -->
@@ -11,5 +11,5 @@
 <hr>
 <!-- Go back to news button -->
 <a class="btn btn-outline-primary" role="button" href="<?php echo base_url('notes')?>">
-    ⏪ Go back
+<i class="fas fa-angle-double-left"></i> Go back
 </a>

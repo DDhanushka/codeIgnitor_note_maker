@@ -9,12 +9,12 @@
     <div class="form-group row">
         <label for="inputEmail3" class="col-sm-2 col-form-label">Description</label>
         <div class="col-sm-10">
-            <textarea rows="5" class="form-control" name="body"><?= $note['body'] ?></textarea>
+            <textarea  rows="5" class="form-control" name="body"><?= $note['body'] ?></textarea>
         </div>
     </div>
     <div class="form-group row">
         <div class="col-sm-10 offset-sm-2">
-            <button type="submit" class="btn btn-primary">Update</button>
+            <button type="submit" class="btn btn-primary"> <i class="fas fa-pen"></i>  Update</button>
         </div>
     </div>
 </form>
