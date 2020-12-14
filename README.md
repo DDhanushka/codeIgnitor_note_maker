@@ -59,3 +59,5 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - xml (enabled by default - don't turn it off)
 =======
 # codeIgnitor_note_maker
+
+Use the sql dump file, **ci_db.sql** to restore the database for the application after making necessary changes to config files.
